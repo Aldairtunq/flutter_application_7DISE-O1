@@ -1,7 +1,5 @@
 // ignore_for_file: prefer_const_constructors
 
-import 'dart:html';
-
 import 'package:flutter/material.dart';
 
 void main() {
@@ -43,7 +41,7 @@ class Myapp extends StatelessWidget {
             ),
             Card(
               child: Text(
-                "Sign Up",
+                "Sign aDSAJDBSHJASB  Up",
                 style: TextStyle(
                   color: Colors.white,
                 ),
