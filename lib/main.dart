@@ -43,7 +43,7 @@ class Myapp extends StatelessWidget {
               child: Text(
                 "Sign aDSAJDBSHJASB  Up",
                 style: TextStyle(
-                  color: Colors.white,
+                  color: Color.fromARGB(255, 231, 219, 219),
                 ),
               ),
             )
