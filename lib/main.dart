@@ -1,5 +1,6 @@
 // ignore_for_file: prefer_const_constructors
 
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -40,19 +41,18 @@ class Myapp extends StatelessWidget {
               ),
             ),
             Card(
-              child: Text(
-                "Sign aDSAJDBSHJASB  Up",
-                style: TextStyle(
-                  color: Color.fromARGB(255, 231, 219, 219),
-                ),
-              ),
-            )
+              child: Container(
+                  color: Color.fromARGB(255, 225, 30, 243),
+                  height: 45,
+                  child: ElevatedButton(
+                    child: const Text(
+                        '                               Login                                '),
+                    onPressed: () {},
+                  )),
+            ),
           ],
         ),
       ),
     );
   }
 }
-
-
-
